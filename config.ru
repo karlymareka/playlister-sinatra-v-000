@@ -6,10 +6,18 @@ require_relative 'app/controllers/artists_controller'
 require_relative 'app/controllers/genres_controller'
 require_relative 'app/controllers/songs_controller'
 
+<<<<<<< HEAD
 use ArtistsController
 use GenresController
 use SongsController
 #use LibraryParser 
+=======
+ 
+use ArtistsController
+use GenresController 
+use SongsController
+
+>>>>>>> 97c1fdd83c48510e59ebca4a6fc8233cc99f48f9
 run ApplicationController
 
 begin
